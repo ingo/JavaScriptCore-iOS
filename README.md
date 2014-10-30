@@ -1,4 +1,4 @@
-# JavaScriptCore iOS
+# JavaScriptCore iOS [![Build Status](https://travis-ci.org/ingo/JavaScriptCore-iOS.svg)](https://travis-ci.org/ingo/JavaScriptCore-iOS)
 
 The JavaScriptCore library is part of the [WebKit project](http://www.webkit.org/) and thus Open Source. However, in the sources you get from the [WebKit SVN](https://svn.webkit.org/repository/webkit/trunk), the XCode project files are curiously missing an iOS compile target. The sources you get from [opensource.apple.com](http://opensource.apple.com/release/ios-601/) are missing the project files altogether. You can't compile it at all. That's quite the Open Source spirit, Apple!
 
