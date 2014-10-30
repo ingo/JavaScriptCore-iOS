@@ -1,0 +1,13 @@
+language: objective-c
+
+env:
+ global:
+
+before_install:
+
+install:
+
+script:
+ - python make.py
+
+after_success:
