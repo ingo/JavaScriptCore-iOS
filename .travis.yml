@@ -6,8 +6,9 @@ env:
 before_install:
 
 install:
+ - gem install xcpretty
 
 script:
- - python make.py
+ - python make.py | xcpretty
 
 after_success:
